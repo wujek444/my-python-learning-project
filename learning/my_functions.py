@@ -16,3 +16,21 @@ def read_string_from_file(path) :
 
 def generic_procedure():
     print("This method returns nothing!")
+
+
+def round_to_two_places(num):
+    """Return the given number rounded to two decimal places.
+
+    >>> round_to_two_places(3.14159)
+    3.14
+    """
+    return round_to_n_places(num, 2)
+
+
+def round_to_n_places(num, number_of_digits):
+    """Return the given number rounded to number_of_digits decimal places.
+
+    >>> round_to_two_places(3.14159, 4)
+    3.1415
+    """
+    return round(num, number_of_digits)
