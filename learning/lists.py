@@ -37,3 +37,6 @@ print(planets)
 print("Is Earth in planets?", "Answer:", "Earth" in planets)
 print("Is Kallisto in planets?", "Answer:", "Kallisto" in planets)
 
+
+tuple = (1, 2, 3, 4) #immutable
+list = [1, 2, 3, 4] #mutable
