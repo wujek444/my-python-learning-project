@@ -19,7 +19,7 @@ X: DataFrame = melbourne_data[melbourne_features]
 train_X, val_X, train_y, val_y = train_test_split(X, y, random_state = 0)
 # Define model
 melbourne_model = DecisionTreeRegressor()
-# Fit model
+# Fit/train model
 melbourne_model.fit(train_X, train_y)
 
 # get predicted prices on validation data
