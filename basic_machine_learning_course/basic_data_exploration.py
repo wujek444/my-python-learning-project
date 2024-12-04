@@ -1,5 +1,6 @@
 import pandas as pd
 from pandas import Series, DataFrame
+from sklearn.metrics import mean_absolute_error
 from sklearn.tree import DecisionTreeRegressor
 
 # save filepath to variable for easier access
@@ -37,3 +38,8 @@ print(X.head())
 print("The predictions are")
 print(melbourne_model.predict(X.head()))
 print("Real values are:", y.head(), sep='\n')
+
+#model validation
+predicted_home_prices = melbourne_model.predict(X)
+error = mean_absolute_error(y, predicted_home_prices) #mean absolute error (MAE - metric used to summarize model quality)
+print("Mean absolute error in dollars:", error) #this validation is bad, because it is using same data as used to train the model
