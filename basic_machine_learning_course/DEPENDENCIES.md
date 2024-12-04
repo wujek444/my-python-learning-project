@@ -7,3 +7,6 @@ Dependencies:
 * Connecting to Oracle DB: ```pip install oracledb sqlalchemy```
 * scikit-learn - data modeling library (+ required dependencies): ```pip install numpy scipy scikit-learn```
 * Python wrapper (optional): ```pip install IPython```
+
+Pip install all dependencies:
+```pip install pandas oracledb sqlalchemy numpy scipy scikit-learn IPython```
