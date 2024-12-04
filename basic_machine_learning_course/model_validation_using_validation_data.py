@@ -8,9 +8,9 @@ melbourne_file_path = 'datasets/melb_data.csv'
 melbourne_data = pd.read_csv(melbourne_file_path)
 melbourne_data = melbourne_data.dropna(axis=0)
 
-y: Series = melbourne_data.Price
+y: Series = melbourne_data.Price #prediction target
 melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude']
-X: DataFrame = melbourne_data[melbourne_features]
+X: DataFrame = melbourne_data[melbourne_features] #features
 
 # split data into training and validation data, for both features and target
 # The split is based on a random number generator. Supplying a numeric value to
