@@ -1,6 +1,6 @@
 import unittest
 
-from learning.exercises.booleans_and_conditions import sign, to_smash
+from basic_python_course.exercises.booleans_and_conditions import sign, to_smash
 
 
 class BooleansAndConditionsTest(unittest.TestCase):

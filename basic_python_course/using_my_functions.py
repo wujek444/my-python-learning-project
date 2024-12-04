@@ -1,4 +1,4 @@
-from learning.functions_passed_to_functions import squared_call, mult_by_five
+from basic_python_course.functions_passed_to_functions import squared_call, mult_by_five
 from my_functions import read_string_from_file, generic_procedure, least_difference
 
 help(least_difference)

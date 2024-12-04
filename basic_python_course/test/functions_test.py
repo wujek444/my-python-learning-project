@@ -1,6 +1,6 @@
 import unittest
 
-from learning.my_functions import least_difference, round_to_two_places, round_to_n_places
+from basic_python_course.my_functions import least_difference, round_to_two_places, round_to_n_places
 
 
 class MyTestCase(unittest.TestCase):
