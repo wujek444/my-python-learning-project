@@ -5,3 +5,4 @@ Pre dependencies download configuration:
 Dependencies:
 * Data analysis: ```pip install pandas```
 * Connecting to Oracle DB: ```pip install oracledb sqlalchemy```
+* Python wrapper (optional): ```pip install IPython```
